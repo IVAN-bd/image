@@ -25,5 +25,5 @@ RUN \
 from alpine
 
 copy --from=build /tmp/gluster-exporter /
-copy --from=build /tmp/gluster-exporter.toml /
-copy gluster-exporter.service /
+copy --from=build /tmp/gluster-exporter.toml
+# copy gluster-exporter.service /
